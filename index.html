@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlueMydas</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- 프리텐다드 폰트 -->
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <!-- 폰트어썸 cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- gsap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+      integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/TextPlugin.min.js"
+      integrity="sha512-8BkFnMa5pqmphA7XoSbkjP2qX7Gqlkel2C+p1g1AH1tW4cBJs2tumC0Zn9eNRBOKbe3dW9OtbYh/vpkGuZNTMw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/custom.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <nav>
+          <h1>
+            <a href="index.html"
+              ><img src="img/logo-white.png" alt="블루마이다스 로고"
+            /></a>
+          </h1>
+          <ul class="menu">
+            <li><a href="#about">about</a></li>
+            <li><a href="#product">product</a></li>
+            <li><a href="#history">history</a></li>
+            <li><a href="#news">news</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="visual">
+        <ul>
+          <li class="on">
+            <img src="img/vis1.jpg" alt="바다 위를 유영하는 바다거북 사진" />
+          </li>
+          <li>
+            <img src="img/vis2.jpg" alt="바다 위를 유영하는 바다거북 사진" />
+          </li>
+          <li>
+            <img src="img/vis3.jpg" alt="바다 위를 유영하는 바다거북 사진" />
+          </li>
+        </ul>
+      </div>
+      <div id="container">
+        <section class="con01" id="about">
+          <span>bio healthcare seapolynol food</span>
+          <div class="aboutBox">
+            <div class="about_txt">
+              <p>
+                해양식물인 <span class="cyan">감태</span>에서 추출, 정제한
+                플로로탄닌<span class="grey">EckLonia cava PhLorotannin</span>
+                성분으로 국제인증을 거친 의약수준의 원료물질을 제공합니다.
+              </p>
+              <p>
+                푸른거북은 자연으로부터 얻은 소중한 원료 소재를 전세계인의
+                식단에 간편한 형태로 가공한 제품을 만듭니다. 국제 인증을 받은
+                탄탄한 원료소재로 고객이 신뢰할 수 있는 제품만을 제공합니다.<br />
+                의약 수준의 식품을 목표로 하는 끊임없는 생각과 노력으로 높은
+                품질의 제품을 개발하는 글로벌 기업이 되겠습니다.
+              </p>
+            </div>
+            <div class="about_med"></div>
+          </div>
+          <ul class="valueBox">
+            <li class="on">
+              <h4>Core Value</h4>
+              <h5>The fundamentals of the human body</h5>
+              <hr />
+              <p>
+                식품이면서 제약 수준의 국제지표(표준화,정량화)를 갖춘 원료소재를
+                갖고 인류의 건강을 끝까지 책임질 수 있도록 인체의 근본을
+                다스립니다.
+              </p>
+            </li>
+            <li>
+              <h4>Our Vision</h4>
+              <h5>A future healthcare dream</h5>
+              <hr />
+              <p>
+                의약 수준의 식품으로 적합성과 안전성의 국제인증을 통해 세계
+                시장에서 블록버스터급 건강기능 제품 및 순수식품을 만들어냅니다.
+              </p>
+            </li>
+            <li>
+              <h4>Our Mission</h4>
+              <h5>The best product with the best effects</h5>
+              <hr />
+              <p>
+                전세계인이 늘 곁에 두고 싶어 하는 독보적이고 지속 가능한 구독
+                플랫폼 구축이 가능한 필수 건강 아이템으로 자리잡는 것을 목표로
+                합니다.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="con02" id="product">
+          <div class="pr_before">
+            <div class="circ">
+              <video
+                src="img/ocean.mp4"
+                autoplay
+                muted
+                loop
+                playsinline
+              ></video>
+            </div>
+            <h3>전 세계인의 식단에<br />블루마이다스가 함께합니다.</h3>
+          </div>
+          <div class="pr_after">
+            <h4>
+              백 년을 사는 푸른거북의 힘으로<br />블루마이다스가 감태의 효능을
+              전합니다.
+            </h4>
+            <ul>
+              <li>
+                <a
+                  href="https://mkt.shopping.naver.com/link/681af81db84505306af85f43"
+                >
+                  <img src="img/pr1.png" alt="블루마이다스 상품 썸네일" />
+                </a>
+              </li>
+              <li><a href="#">coming soon</a></li>
+              <li><a href="#">coming soon</a></li>
+              <li><a href="#">coming soon</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="con03" id="history">
+          <div class="time">
+            <div class="time_cir">2025</div>
+            <ul class="history_25">
+              <li>
+                <div></div>
+                <p>국내 네이버스토어 및 쿠팡 입점 후 온라인 유통</p>
+              </li>
+              <li>
+                <div></div>
+                <p>더씨트레(THEseatre) 감태액상차 판매</p>
+              </li>
+              <li>
+                <div></div>
+                <p>블루마이다스(bluemydas)브랜드 국내 출시</p>
+              </li>
+              <li>
+                <div></div>
+                <p>외국인 쇼핑핫플레이스 명동, 홍대 레디영 약국 입점</p>
+              </li>
+            </ul>
+            <ul class="history_26">
+              <li>
+                <div></div>
+                <p>공무원, 기업, 교육기관 상대 B2B복지몰 삼아인터내셔널 협업</p>
+              </li>
+              <li>
+                <div></div>
+                <p>동남아 온라인 대형마켓플레이스 소피(Shopee)등록</p>
+              </li>
+              <li>
+                <div></div>
+                <p>해외시장 원클릭 상품판매시스템 에이링크원 협업</p>
+              </li>
+              <li>
+                <div></div>
+                <p>
+                  중국 온오프라인 유통 전문 컨설팅업체 계약 체결(K-CITY HARBIN)
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="con04" id="news">
+          <div class="title">
+            <h2>NEWS</h2>
+            <h3>블루마이다스의 다양한 소식과 기록을 전해드립니다.</h3>
+          </div>
+          <hr />
+          <div class="news">
+            <div class="news_med"></div>
+            <ul class="news_link">
+              <li>
+                <a href="#">
+                  <div>NEWS</div>
+                  <h6>블루마이다스, 미국식품의약국 FDA 인증 처리 완료</h6>
+                  <span>2025.02.02</span></a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <div>NEWS</div>
+                  <h6>블루마이다스, 미국식품의약국 FDA 인증 처리 완료</h6>
+                  <span>2025.02.02</span></a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <div>NEWS</div>
+                  <h6>블루마이다스, 미국식품의약국 FDA 인증 처리 완료</h6>
+                  <span>2025.02.02</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="con05" id="contact">
+          <div class="title">
+            <h2>CONTACT</h2>
+            <h3>푸른거북 주식회사는 다양한 협업 기회를 기다리고 있습니다.</h3>
+          </div>
+          <div class="contact">
+            <div class="info">
+              <div class="btn">
+                <a href="#"
+                  >CONTACT NOW<i class="fa-regular fa-envelope"></i
+                ></a>
+              </div>
+              <p>
+                서울특별시 구로구 디지털로33길 27 (구로동) 삼성IT밸리 5층 502호
+              </p>
+              <p>상담 및 주문전화: <span>070-7710-1093</span></p>
+            </div>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357c9f00731ba007%3A0xc8b5f148ee73e4a3!2sSamsung%20IT%20Vally!5e0!3m2!1sko!2skr!4v1787546908805!5m2!1sko!2skr"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div class="footer_top">
+          <h3>bluemydas, beyond blue</h3>
+          <hr />
+          <ul>
+            <li>회사명: <span>푸른거북 주식회사</span></li>
+            <li>대표: <span>권광오</span></li>
+            <li>사업자 등록번호: <span>------</span></li>
+          </ul>
+          <p>
+            주소:
+            <span
+              >서울특별시 구로구 디지털로33길 27 (구로동) 삼성IT밸리 5층
+              502호</span
+            >
+          </p>
+        </div>
+        <div class="footer_bottom">
+          <p>문의 전화: <span>070-7710-1093</span></p>
+          <p>월-금 AM 9:00 - PM 6:00</p>
+          <p>점심시간 PM 12:00 - PM 1:00 / 토요일, 일요일, 공휴일 휴무</p>
+        </div>
+        <p>COPYRIGHT © BY Biotree. ALL RIGHTS RESERVED.</p>
+      </footer>
+    </div>
+    <script src="js/custom_gsap.js"></script>
+  </body>
+</html>
