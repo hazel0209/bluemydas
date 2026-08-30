@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: Pretendard;
   letter-spacing: -1.5px;
