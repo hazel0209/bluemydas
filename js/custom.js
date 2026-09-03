@@ -62,5 +62,5 @@ $(function () {
     }
     $("#visual li").fadeOut(2000);
     $("#visual li").eq(i).stop().fadeIn(2000);
-  }, 5000);
+  }, 10000);
 });

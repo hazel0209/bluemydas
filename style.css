@@ -108,15 +108,39 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    animation: zoomSlow 6s ease-out forwards;
+    animation: zoomSlow 12s ease-out forwards;
   }
   @keyframes zoomSlow {
     from {
       transform: scale(1);
     }
     to {
-      transform: scale(1.15);
+      transform: scale(1.2);
     }
+  }
+  #visual ul li .text {
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    z-index: 2;
+    color: #ffffff;
+    text-shadow: #000000 0px 0px 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -1px;
+  }
+  #visual ul li .text span {
+    color: #ffffff70;
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: -30px;
+    opacity: 0.6;
+    text-shadow: none;
+  }
+  #visual ul li .text p {
+    margin: 20px 0px;
   }
 
   #container {
@@ -883,15 +907,42 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    animation: zoomSlow 6s ease-out forwards;
+    animation: zoomSlow 12s ease-out forwards;
   }
   @keyframes zoomSlow {
     from {
       transform: scale(1);
     }
     to {
-      transform: scale(1.15);
+      transform: scale(1.2);
     }
+  }
+  #visual ul li .text {
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    z-index: 2;
+    color: #ffffff;
+    text-shadow: #000000 0px 0px 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    width: calc(90vw - 30px);
+    word-break: keep-all;
+    box-sizing: border-box;
+  }
+  #visual ul li .text span {
+    color: #ffffff70;
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: -30px;
+    opacity: 0.6;
+    text-shadow: none;
+  }
+  #visual ul li .text p {
+    margin: 20px 0px;
   }
 
   #container {
@@ -1665,15 +1716,42 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    animation: zoomSlow 6s ease-out forwards;
+    animation: zoomSlow 12s ease-out forwards;
   }
   @keyframes zoomSlow {
     from {
       transform: scale(1);
     }
     to {
-      transform: scale(1.15);
+      transform: scale(1.2);
     }
+  }
+  #visual ul li .text {
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    z-index: 2;
+    color: #ffffff;
+    text-shadow: #000000 0px 0px 4px;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    width: calc(90vw - 30px);
+    word-break: keep-all;
+    box-sizing: border-box;
+  }
+  #visual ul li .text span {
+    color: #ffffff70;
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: -30px;
+    opacity: 0.6;
+    text-shadow: none;
+  }
+  #visual ul li .text p {
+    margin: 20px 0px;
   }
 
   #container {
