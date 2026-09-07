@@ -129,7 +129,7 @@ a {
     line-height: 1.5;
     letter-spacing: -1px;
   }
-  #visual ul li .text span {
+  #visual ul li .text > span {
     color: #ffffff70;
     font-size: 50px;
     font-weight: 900;
@@ -141,6 +141,13 @@ a {
   }
   #visual ul li .text p {
     margin: 20px 0px;
+  }
+  #visual ul li .text p:nth-child(1) span {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  #visual ul li .text p span {
+    font-weight: 700;
   }
 
   #container {
@@ -931,7 +938,7 @@ a {
     word-break: keep-all;
     box-sizing: border-box;
   }
-  #visual ul li .text span {
+  #visual ul li .text > span {
     color: #ffffff70;
     font-size: 50px;
     font-weight: 900;
@@ -943,6 +950,13 @@ a {
   }
   #visual ul li .text p {
     margin: 20px 0px;
+  }
+  #visual ul li .text p:nth-child(1) span {
+    font-weight: 700;
+    font-size: 21px;
+  }
+  #visual ul li .text p span {
+    font-weight: 700;
   }
 
   #container {
@@ -1740,7 +1754,7 @@ a {
     word-break: keep-all;
     box-sizing: border-box;
   }
-  #visual ul li .text span {
+  #visual ul li .text > span {
     color: #ffffff70;
     font-size: 50px;
     font-weight: 900;
@@ -1752,6 +1766,13 @@ a {
   }
   #visual ul li .text p {
     margin: 20px 0px;
+  }
+  #visual ul li .text p:nth-child(1) span {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  #visual ul li .text p span {
+    font-weight: 700;
   }
 
   #container {
