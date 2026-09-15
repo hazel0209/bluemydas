@@ -90,7 +90,7 @@ tl2
       width: size + "px",
       height: size + "px",
       borderRadius: "50%",
-      background: "#00b3c7",
+      background: "#0975ce",
       opacity: "0.1",
       zIndex: "-10",
       pointerEvents: "none",

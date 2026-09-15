@@ -77,7 +77,7 @@ a {
 
   header nav.scrolled {
     background-color: #ffffff;
-    color: #0092a2;
+    color: #0975ce;
     box-shadow: 0px 0px 5px #00303590;
   }
   header nav.scrolled .menu {
@@ -164,7 +164,7 @@ a {
     font-size: calc(7.7vw);
     width: 100%;
     transform: translateY(-18%);
-    color: #00b3c7;
+    color: #0975ce;
   }
   .con01 .aboutBox {
     display: flex;
@@ -187,15 +187,15 @@ a {
     font-size: 15px;
     line-height: 1.4;
   }
-  .con01 .aboutBox .about_txt .cyan {
+  /* .con01 .aboutBox .about_txt .cyan {
     font-weight: bold;
     color: #00b3c7;
-  }
+  } */
   .con01 .aboutBox .about_txt .grey {
     color: #bbb;
   }
   .con01 .aboutBox .about_med {
-    border: 1px solid #00b3c7;
+    border: 1px solid #0975ce;
     width: 40%;
     height: 240px;
     border-radius: 5vw 5vw 5vw 0;
@@ -206,7 +206,7 @@ a {
     width: 100%;
     height: 100%;
     border-radius: 5vw 5vw 5vw 0;
-    background-color: #00b3c760;
+    background-color: #0975ce60;
     position: absolute;
     top: 15px;
     left: 20px;
@@ -222,17 +222,17 @@ a {
     gap: 10px;
   }
   .con01 .valueBox li {
-    border: 1px solid #00b3c7;
+    border: 1px solid #0975ce;
     padding: 20px;
     height: 360px;
     width: calc(100% / 3);
     box-sizing: border-box;
     align-content: end;
-    color: #0092a2;
+    color: #094f88;
     word-break: keep-all;
     font-size: 14px;
     border-radius: 3vw;
-    box-shadow: 1px 1px 4px #0092a270;
+    box-shadow: 1px 1px 4px #094f8870;
     transition: 0.6s ease;
   }
   .con01 .valueBox li h4 {
@@ -246,30 +246,22 @@ a {
   .con01 .valueBox li.on {
     border: 1px solid transparent;
     width: 60%;
-    /* background-color: #00b3c7; */
-    background-image:
-      linear-gradient(180deg, transparent 50%, #000000a8 100%),
-      url(./img/value_pre.jpg);
+    background-color: #92ceff;
+    /* background-image: linear-gradient(180deg, transparent 50%, #0975cea8 100%);
     background-size: cover;
     background-repeat: none;
-    background-position: center;
+    background-position: center; */
     color: #fff;
     border-radius: 0;
   }
   .con01 .valueBox li:nth-child(1).on {
-    background-image:
-      linear-gradient(180deg, transparent 50%, #000000a8 100%),
-      url(./img/value1.jpg);
+    background-image: linear-gradient(180deg, transparent 20%, #00467c 100%);
   }
   .con01 .valueBox li:nth-child(2).on {
-    background-image:
-      linear-gradient(180deg, transparent 50%, #000000a8 100%),
-      url(./img/value2.jpg);
+    background-image: linear-gradient(180deg, transparent 20%, #195db6 100%);
   }
   .con01 .valueBox li:nth-child(3).on {
-    background-image:
-      linear-gradient(180deg, transparent 50%, #000000a8 100%),
-      url(./img/value3.jpg);
+    background-image: linear-gradient(180deg, transparent 20%, #235ad8 100%);
   }
   .con01 .valueBox li hr {
     border: none;
@@ -558,7 +550,7 @@ a {
     font-size: 10vw;
     font-weight: 900;
     letter-spacing: -0.6vw;
-    color: #00b3c71a;
+    color: #0975ce1a;
     z-index: -1;
   }
   .con04 .title h3,
@@ -583,7 +575,7 @@ a {
   }
   .con04 hr {
     border: none;
-    background-color: #00b3c7;
+    background-color: #0975ce;
     height: 2px;
     border-radius: 5px;
     width: 50%;
@@ -598,9 +590,9 @@ a {
   .con04 .news .news_med {
     width: 300px;
     height: 300px;
-    border: 1px solid #0092a2;
+    border: 1px solid #0975ce;
     border-radius: 0px 50px 0px 50px;
-    box-shadow: 2px 2px 4px #0092a270;
+    box-shadow: 2px 2px 4px #0975ce60;
   }
   .con04 .news .news_link a {
     display: block;
@@ -675,7 +667,7 @@ a {
   }
   .con05 .contact .info {
     text-align: right;
-    color: #0092a2;
+    color: #106fb7;
   }
   .con05 .contact .info .btn a {
     display: block;
@@ -687,16 +679,16 @@ a {
     font-weight: 900;
     letter-spacing: -3px;
     color: #fff;
-    -webkit-text-stroke: 1px #0092a2;
-    border: 1px solid #0092a2;
+    -webkit-text-stroke: 1px #0975ce;
+    border: 1px solid #0975ce;
     border-radius: 100px;
-    background-color: #00b3c730;
+    background-color: #0975ce30;
     margin-bottom: 14px;
     transition: 0.2s;
   }
   .con05 .contact .info .btn:hover {
     transform: scale(1.1);
-    background-color: #00b3c76c;
+    background-color: #0091ff6c;
   }
   .con05 .contact .info p {
     margin-top: 10px;
@@ -708,7 +700,7 @@ a {
   }
   .con05 .contact .map {
     height: 50vh;
-    border: 1px solid #0092a2;
+    border: 1px solid #195db6;
     border-radius: 50px 0px 50px 0px;
     position: relative;
   }
@@ -722,7 +714,7 @@ a {
     height: 100%;
     right: -15px;
     bottom: -10px;
-    background-color: #00b3c740;
+    background-color: #0975ce40;
     z-index: -1;
     border-radius: 50px 0px 50px 0px;
   }
@@ -730,7 +722,7 @@ a {
   /* footer */
 
   footer {
-    background-color: #00b3c7;
+    background-color: #0975ce;
     color: #fff;
     height: 300px;
     box-sizing: border-box;
@@ -785,7 +777,7 @@ a {
     left: 0;
     width: 200%;
     height: 200px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,60 C150,20 350,100 600,60 C850,20 1050,100 1200,60 L1200,120 L0,120 Z' fill='%2300b3c7'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,60 C150,20 350,100 600,60 C850,20 1050,100 1200,60 L1200,120 L0,120 Z' fill='%230975ce'/%3E%3C/svg%3E");
     background-repeat: repeat-x;
     background-size: 1200px 60px;
     animation: waveMove 8s linear infinite;
@@ -808,7 +800,7 @@ a {
     width: 200%;
     height: 70px;
     z-index: -1;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,50 C200,90 400,10 600,50 C800,90 1000,10 1200,50 L1200,120 L0,120 Z' fill='%23d6f6fa'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,50 C200,90 400,10 600,50 C800,90 1000,10 1200,50 L1200,120 L0,120 Z' fill='%23bae0ff'/%3E%3C/svg%3E");
     background-repeat: repeat-x;
     background-size: 1000px 70px;
     animation: waveMove2 12s linear infinite;
@@ -883,7 +875,7 @@ a {
 
   header nav.scrolled {
     background-color: #ffffff;
-    color: #0092a2;
+    color: #0975ce;
     box-shadow: 0px 0px 5px #00303590;
   }
   header nav.scrolled .menu {
@@ -973,7 +965,7 @@ a {
     font-size: calc(7.7vw);
     width: 100%;
     transform: translateY(-18%);
-    color: #00b3c7;
+    color: #0975ce;
   }
   .con01 .aboutBox {
     display: flex;
@@ -996,15 +988,15 @@ a {
     font-size: 15px;
     line-height: 1.4;
   }
-  .con01 .aboutBox .about_txt .cyan {
+  /* .con01 .aboutBox .about_txt .cyan {
     font-weight: bold;
     color: #00b3c7;
-  }
+  } */
   .con01 .aboutBox .about_txt .grey {
     color: #bbb;
   }
   .con01 .aboutBox .about_med {
-    border: 1px solid #00b3c7;
+    border: 1px solid #0975ce;
     width: 40%;
     height: 240px;
     border-radius: 5vw 5vw 5vw 0;
@@ -1015,7 +1007,7 @@ a {
     width: 100%;
     height: 100%;
     border-radius: 5vw 5vw 5vw 0;
-    background-color: #00b3c760;
+    background-color: #0975ce60;
     position: absolute;
     top: 15px;
     left: 20px;
@@ -1031,17 +1023,17 @@ a {
     gap: 10px;
   }
   .con01 .valueBox li {
-    border: 1px solid #00b3c7;
+    border: 1px solid #0975ce;
     padding: 20px;
     height: 360px;
     width: calc(100% / 3);
     box-sizing: border-box;
     align-content: end;
-    color: #0092a2;
+    color: #094f88;
     word-break: keep-all;
     font-size: 14px;
     border-radius: 3vw;
-    box-shadow: 1px 1px 4px #0092a270;
+    box-shadow: 1px 1px 4px #094f8870;
     transition: 0.6s ease;
   }
   .con01 .valueBox li h4 {
@@ -1055,30 +1047,24 @@ a {
   .con01 .valueBox li.on {
     border: 1px solid transparent;
     width: 60%;
-    /* background-color: #00b3c7; */
-    background-image:
+    background-color: #92ceff;
+    /* background-image:
       linear-gradient(180deg, transparent 50%, #000000a8 100%),
       url(./img/value_pre.jpg);
     background-size: cover;
     background-repeat: none;
-    background-position: center;
+    background-position: center; */
     color: #fff;
     border-radius: 0;
   }
   .con01 .valueBox li:nth-child(1).on {
-    background-image:
-      linear-gradient(180deg, transparent 50%, #000000a8 100%),
-      url(./img/value1.jpg);
+    background-image: linear-gradient(180deg, transparent 20%, #00467c 100%);
   }
   .con01 .valueBox li:nth-child(2).on {
-    background-image:
-      linear-gradient(180deg, transparent 50%, #000000a8 100%),
-      url(./img/value2.jpg);
+    background-image: linear-gradient(180deg, transparent 20%, #195db6 100%);
   }
   .con01 .valueBox li:nth-child(3).on {
-    background-image:
-      linear-gradient(180deg, transparent 50%, #000000a8 100%),
-      url(./img/value3.jpg);
+    background-image: linear-gradient(180deg, transparent 20%, #235ad8 100%);
   }
   .con01 .valueBox li hr {
     border: none;
@@ -1369,7 +1355,7 @@ a {
     font-size: calc(70px + 2vw);
     font-weight: 900;
     letter-spacing: -0.6vw;
-    color: #00b3c71a;
+    color: #0975ce1a;
     z-index: -1;
   }
   .con04 .title h3,
@@ -1395,7 +1381,7 @@ a {
   }
   .con04 hr {
     border: none;
-    background-color: #00b3c7;
+    background-color: #0975ce;
     height: 2px;
     border-radius: 5px;
     width: 50%;
@@ -1410,9 +1396,9 @@ a {
   .con04 .news .news_med {
     width: calc(150px + 10vw);
     aspect-ratio: 1/1;
-    border: 1px solid #0092a2;
+    border: 1px solid #0975ce;
     border-radius: 0px 50px 0px 50px;
-    box-shadow: 2px 2px 4px #0092a270;
+    box-shadow: 2px 2px 4px #0975ce60;
   }
   .con04 .news .news_link a {
     display: block;
@@ -1487,7 +1473,7 @@ a {
   }
   .con05 .contact .info {
     text-align: right;
-    color: #0092a2;
+    color: #106fb7;
   }
   .con05 .contact .info .btn a {
     display: block;
@@ -1499,16 +1485,16 @@ a {
     font-weight: 900;
     letter-spacing: -3px;
     color: #fff;
-    -webkit-text-stroke: 1px #0092a2;
-    border: 1px solid #0092a2;
+    -webkit-text-stroke: 1px #0975ce;
+    border: 1px solid #0975ce;
     border-radius: 100px;
-    background-color: #00b3c730;
+    background-color: #0975ce30;
     margin-bottom: 14px;
     transition: 0.2s;
   }
   .con05 .contact .info .btn:hover {
     transform: scale(1.1);
-    background-color: #00b3c76c;
+    background-color: #0091ff6c;
   }
   .con05 .contact .info p {
     margin-top: 10px;
@@ -1521,7 +1507,7 @@ a {
   }
   .con05 .contact .map {
     height: 50vh;
-    border: 1px solid #0092a2;
+    border: 1px solid #195db6;
     border-radius: 50px 0px 50px 0px;
     position: relative;
   }
@@ -1535,7 +1521,7 @@ a {
     height: 100%;
     right: -15px;
     bottom: -10px;
-    background-color: #00b3c740;
+    background-color: #0975ce40;
     z-index: -1;
     border-radius: 50px 0px 50px 0px;
   }
@@ -1543,7 +1529,7 @@ a {
   /* footer */
 
   footer {
-    background-color: #00b3c7;
+    background-color: #0975ce;
     color: #fff;
     height: 300px;
     box-sizing: border-box;
@@ -1601,7 +1587,7 @@ a {
     left: 0;
     width: 200%;
     height: 200px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,60 C150,20 350,100 600,60 C850,20 1050,100 1200,60 L1200,120 L0,120 Z' fill='%2300b3c7'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,60 C150,20 350,100 600,60 C850,20 1050,100 1200,60 L1200,120 L0,120 Z' fill='%230975ce'/%3E%3C/svg%3E");
     background-repeat: repeat-x;
     background-size: 1200px 60px;
     animation: waveMove 8s linear infinite;
@@ -1624,7 +1610,7 @@ a {
     width: 200%;
     height: 70px;
     z-index: -1;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,50 C200,90 400,10 600,50 C800,90 1000,10 1200,50 L1200,120 L0,120 Z' fill='%23d6f6fa'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,50 C200,90 400,10 600,50 C800,90 1000,10 1200,50 L1200,120 L0,120 Z' fill='%23bae0ff'/%3E%3C/svg%3E");
     background-repeat: repeat-x;
     background-size: 1000px 70px;
     animation: waveMove2 12s linear infinite;
@@ -1699,7 +1685,7 @@ a {
 
   header nav.scrolled {
     background-color: #ffffff;
-    color: #0092a2;
+    color: #0975ce;
     box-shadow: 0px 0px 5px #00303590;
   }
   header nav.scrolled .menu {
@@ -1789,7 +1775,7 @@ a {
     font-size: calc(7.5vw);
     width: 100%;
     transform: translateY(-18%);
-    color: #00b3c7;
+    color: #0975ce;
   }
   .con01 .aboutBox {
     /* display: flex;
@@ -1813,15 +1799,15 @@ a {
     font-size: 15px;
     line-height: 1.4;
   }
-  .con01 .aboutBox .about_txt .cyan {
+  /* .con01 .aboutBox .about_txt .cyan {
     font-weight: bold;
     color: #00b3c7;
-  }
+  } */
   .con01 .aboutBox .about_txt .grey {
     color: #bbb;
   }
   .con01 .aboutBox .about_med {
-    border: 1px solid #00b3c7;
+    border: 1px solid #0975ce;
     height: 240px;
     border-radius: 5vw 5vw 5vw 0;
     position: relative;
@@ -1831,7 +1817,7 @@ a {
     width: 100%;
     height: 100%;
     border-radius: 5vw 5vw 5vw 0;
-    background-color: #00b3c760;
+    background-color: #0975ce60;
     position: absolute;
     top: 15px;
     left: 20px;
@@ -1847,17 +1833,17 @@ a {
     gap: 10px; */
   }
   .con01 .valueBox li {
-    border: 1px solid #00b3c7;
+    border: 1px solid #0975ce;
     padding: 20px;
     height: 200px;
     width: 60%;
     box-sizing: border-box;
     align-content: end;
-    color: #0092a2;
+    color: #094f88;
     word-break: keep-all;
     font-size: 14px;
     border-radius: 3vw;
-    box-shadow: 1px 1px 4px #0092a270;
+    box-shadow: 1px 1px 4px #094f8870;
     transition: 0.6s ease;
     margin: 20px auto;
   }
@@ -1872,30 +1858,24 @@ a {
   .con01 .valueBox li.on {
     border: 1px solid transparent;
     width: 100%;
-    /* background-color: #00b3c7; */
-    background-image:
+    background-color: #92ceff;
+    /* background-image:
       linear-gradient(180deg, transparent 50%, #000000a8 100%),
       url(./img/value_pre.jpg);
     background-size: cover;
     background-repeat: none;
     background-position: center;
-    color: #fff;
+    color: #fff; */
     border-radius: 0;
   }
   .con01 .valueBox li:nth-child(1).on {
-    background-image:
-      linear-gradient(180deg, transparent 50%, #000000a8 100%),
-      url(./img/value1.jpg);
+    background-image: linear-gradient(180deg, transparent 20%, #00467c 100%);
   }
   .con01 .valueBox li:nth-child(2).on {
-    background-image:
-      linear-gradient(180deg, transparent 50%, #000000a8 100%),
-      url(./img/value2.jpg);
+    background-image: linear-gradient(180deg, transparent 20%, #195db6 100%);
   }
   .con01 .valueBox li:nth-child(3).on {
-    background-image:
-      linear-gradient(180deg, transparent 50%, #000000a8 100%),
-      url(./img/value3.jpg);
+    background-image: linear-gradient(180deg, transparent 20%, #235ad8 100%);
   }
   .con01 .valueBox li hr {
     border: none;
@@ -2183,7 +2163,7 @@ a {
     font-size: calc(70px + 2vw);
     font-weight: 900;
     letter-spacing: -0.6vw;
-    color: #00b3c71a;
+    color: #0975ce1a;
     z-index: -1;
   }
   .con04 .title h3,
@@ -2209,7 +2189,7 @@ a {
   }
   .con04 hr {
     border: none;
-    background-color: #00b3c7;
+    background-color: #0975ce;
     height: 2px;
     border-radius: 5px;
     width: 50%;
@@ -2225,9 +2205,9 @@ a {
     width: calc(150px + 10vw);
     aspect-ratio: 1/1;
     margin: 0px auto;
-    border: 1px solid #0092a2;
+    border: 1px solid #0975ce;
     border-radius: 0px 50px 0px 50px;
-    box-shadow: 2px 2px 4px #0092a270;
+    box-shadow: 2px 2px 4px #0975ce60;
   }
   .con04 .news .news_link a {
     display: block;
@@ -2299,7 +2279,7 @@ a {
     width: 100%;
   }
   .con05 .contact .info {
-    color: #0092a2;
+    color: #106fb7;
     padding: 0px 20px 20px;
     box-sizing: border-box;
     text-align: center;
@@ -2318,16 +2298,16 @@ a {
     font-weight: 900;
     letter-spacing: -3px;
     color: #fff;
-    -webkit-text-stroke: 1px #0092a2;
-    border: 1px solid #0092a2;
+    -webkit-text-stroke: 1px #0975ce;
+    border: 1px solid #0975ce;
     border-radius: 100px;
-    background-color: #00b3c730;
+    background-color: #0975ce30;
     margin-bottom: 14px;
     transition: 0.2s;
   }
   .con05 .contact .info .btn:hover {
     transform: scale(1.1);
-    background-color: #00b3c76c;
+    background-color: #0091ff6c;
   }
   .con05 .contact .info p {
     margin-top: 10px;
@@ -2342,7 +2322,7 @@ a {
     width: 80%;
     margin: 0px auto;
     height: 280px;
-    border: 1px solid #0092a2;
+    border: 1px solid #195db6;
     border-radius: 50px 0px 50px 0px;
     position: relative;
   }
@@ -2356,7 +2336,7 @@ a {
     height: 100%;
     right: -15px;
     bottom: -10px;
-    background-color: #00b3c740;
+    background-color: #0975ce40;
     z-index: -1;
     border-radius: 50px 0px 50px 0px;
   }
@@ -2364,7 +2344,7 @@ a {
   /* footer */
 
   footer {
-    background-color: #00b3c7;
+    background-color: #0975ce;
     color: #fff;
     height: 350px;
     box-sizing: border-box;
@@ -2422,7 +2402,7 @@ a {
     left: 0;
     width: 200%;
     height: 200px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,60 C150,20 350,100 600,60 C850,20 1050,100 1200,60 L1200,120 L0,120 Z' fill='%2300b3c7'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,60 C150,20 350,100 600,60 C850,20 1050,100 1200,60 L1200,120 L0,120 Z' fill='%230975ce'/%3E%3C/svg%3E");
     background-repeat: repeat-x;
     background-size: 1200px 60px;
     animation: waveMove 8s linear infinite;
@@ -2445,7 +2425,7 @@ a {
     width: 200%;
     height: 70px;
     z-index: -1;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,50 C200,90 400,10 600,50 C800,90 1000,10 1200,50 L1200,120 L0,120 Z' fill='%23d6f6fa'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,50 C200,90 400,10 600,50 C800,90 1000,10 1200,50 L1200,120 L0,120 Z' fill='%23bae0ff'/%3E%3C/svg%3E");
     background-repeat: repeat-x;
     background-size: 1000px 70px;
     animation: waveMove2 12s linear infinite;
