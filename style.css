@@ -277,6 +277,9 @@ a {
     transition: 0.4s;
     /* transition-delay: 0.4s; */
   }
+  .con01 .valueBox li p + p {
+    margin-top: 8px;
+  }
   .con01 .valueBox li.on hr {
     width: 100%;
     margin: 10px 0px;
@@ -394,16 +397,55 @@ a {
     width: 100%;
     height: 100vh;
     position: relative;
-    overflow: hidden;
+    padding: 0px 100px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    align-content: center;
   }
 
-  @property --p {
+  /* @property --p {
     syntax: "<number>";
     inherits: true;
     initial-value: 0;
-  }
+  } */
 
   .con03 .time {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: top;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .con03 .time ul {
+    width: calc(100% / 2 - 20px);
+  }
+  .con03 .time ul li {
+    font-size: 20px;
+    margin: 12px 0px;
+  }
+  .con03 .time ul li p {
+    border: 2px solid #9bc6ff;
+    border-radius: 100px;
+    padding: 5px 10px;
+    display: inline-block;
+    color: #0070cb;
+    background-image: linear-gradient(90deg, #ffffff70, #38a5ff4a);
+  }
+  .con03 .time ul li:nth-child(1) {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    letter-spacing: -3px;
+    color: #094f88;
+    text-shadow: 2px 2px 0px #094f8870;
+    border: none;
+  }
+  .con03 .time .history_26 {
+    text-align: right;
+  }
+
+  /* .con03 .time {
     background-color: #00b3c779;
     width: 20vw;
     aspect-ratio: 1/1;
@@ -419,7 +461,6 @@ a {
     width: calc(20vw - 20px);
     margin: 0px auto;
     aspect-ratio: 1/1;
-    /* border: 2px solid #00000060; */
     border-radius: 100%;
     align-content: center;
 
@@ -433,7 +474,7 @@ a {
   .con03 .time .time_cir::before {
     content: "";
     position: absolute;
-    inset: 2px; /* 기존 border 두께만큼 바깥으로 */
+    inset: 2px;
     border-radius: 100%;
     background: conic-gradient(
       from 0deg,
@@ -478,9 +519,9 @@ a {
       transparent calc(100% - 4px),
       #000 calc(100% - 4px)
     );
-  }
+  } */
 
-  .con03 ul {
+  /* .con03 ul {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -526,14 +567,14 @@ a {
     height: 20px;
     margin-right: 10px;
     flex-shrink: 0;
-  }
+  } */
 
-  .con03 .history_25 {
+  /* .con03 .history_25 {
     display: block;
   }
   .con03 .history_26 {
     display: block;
-  }
+  } */
 
   /* con04, con05 */
   .con04,
@@ -1080,6 +1121,9 @@ a {
     transition: 0.4s;
     /* transition-delay: 0.4s; */
   }
+  .con01 .valueBox li p + p {
+    margin-top: 8px;
+  }
   .con01 .valueBox li.on hr {
     width: 100%;
     margin: 10px 0px;
@@ -1198,16 +1242,56 @@ a {
     width: 100%;
     height: 100vh;
     position: relative;
-    overflow: hidden;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    align-content: center;
   }
 
-  @property --p {
+  /* @property --p {
     syntax: "<number>";
     inherits: true;
     initial-value: 0;
-  }
+  } */
 
   .con03 .time {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: top;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .con03 .time ul {
+    width: calc(100% / 2 - 20px);
+  }
+  .con03 .time ul li {
+    font-size: 17.5px;
+    margin: 12px 0px;
+  }
+  .con03 .time ul li p {
+    border: 2px solid #9bc6ff;
+    border-radius: 100px;
+    word-break: keep-all;
+    padding: 5px 10px;
+    display: inline-block;
+    color: #0070cb;
+    background-image: linear-gradient(90deg, #ffffff70, #38a5ff4a);
+  }
+  .con03 .time ul li:nth-child(1) {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: -3px;
+    color: #094f88;
+    text-shadow: 2px 2px 0px #094f8870;
+    border: none;
+  }
+  .con03 .time .history_26 {
+    text-align: right;
+  }
+
+  /* .con03 .time {
     background-color: #00b3c779;
     width: 25vw;
     aspect-ratio: 1/1;
@@ -1223,7 +1307,6 @@ a {
     width: calc(25vw - 20px);
     margin: 0px auto;
     aspect-ratio: 1/1;
-    /* border: 2px solid #00000060; */
     border-radius: 100%;
     align-content: center;
 
@@ -1331,14 +1414,7 @@ a {
     height: 20px;
     margin-right: 10px;
     flex-shrink: 0;
-  }
-
-  .con03 .history_25 {
-    display: block;
-  }
-  .con03 .history_26 {
-    display: block;
-  }
+  } */
 
   /* con04, con05 */
   .con04,
@@ -1864,8 +1940,8 @@ a {
       url(./img/value_pre.jpg);
     background-size: cover;
     background-repeat: none;
-    background-position: center;
-    color: #fff; */
+    background-position: center; */
+    color: #fff;
     border-radius: 0;
   }
   .con01 .valueBox li:nth-child(1).on {
@@ -2008,12 +2084,52 @@ a {
   /* con03 */
   .con03 {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
-    overflow: hidden;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    align-content: center;
   }
 
-  @property --p {
+  .con03 .time {
+    /* display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: top; */
+    width: 100%;
+    margin: 0px auto;
+  }
+  .con03 .time ul {
+    /* width: calc(100% / 2 - 20px); */
+  }
+  .con03 .time ul li {
+    font-size: 14px;
+    margin: 5px 0px;
+  }
+  .con03 .time ul li p {
+    border: 2px solid #9bc6ff;
+    border-radius: 100px;
+    word-break: keep-all;
+    padding: 4px 7px;
+    display: inline-block;
+    color: #0070cb;
+    background-image: linear-gradient(90deg, #ffffff70, #38a5ff4a);
+  }
+  .con03 .time ul li:nth-child(1) {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: -3px;
+    color: #094f88;
+    text-shadow: 2px 2px 0px #094f8870;
+    border: none;
+  }
+  .con03 .time .history_26 {
+    text-align: right;
+  }
+
+  /* @property --p {
     syntax: "<number>";
     inherits: true;
     initial-value: 0;
@@ -2035,7 +2151,6 @@ a {
     width: calc(25vw - 20px);
     margin: 0px auto;
     aspect-ratio: 1/1;
-    /* border: 2px solid #00000060; */
     border-radius: 100%;
     align-content: center;
 
@@ -2150,7 +2265,7 @@ a {
   }
   .con03 .history_26 {
     display: block;
-  }
+  } */
 
   /* con04, con05 */
 
