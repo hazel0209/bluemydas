@@ -149,6 +149,9 @@ a {
   #visual ul li .text p span {
     font-weight: 700;
   }
+  #visual ul li:nth-child(3) .text {
+    font-size: 25px;
+  }
 
   #container {
     width: 100%;
@@ -237,7 +240,7 @@ a {
   }
   .con01 .valueBox li h4 {
     font-weight: 800;
-    font-size: 26px;
+    font-size: 40px;
   }
   .con01 .valueBox li h5 {
     font-weight: 300;
@@ -634,6 +637,12 @@ a {
     border: 1px solid #0975ce;
     border-radius: 0px 50px 0px 50px;
     box-shadow: 2px 2px 4px #0975ce60;
+    overflow: hidden;
+  }
+  .con04 .news .news_med img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .con04 .news .news_link a {
     display: block;
@@ -991,6 +1000,9 @@ a {
   #visual ul li .text p span {
     font-weight: 700;
   }
+  #visual ul li:nth-child(3) .text {
+    font-size: 22px;
+  }
 
   #container {
     width: 100%;
@@ -1079,7 +1091,7 @@ a {
   }
   .con01 .valueBox li h4 {
     font-weight: 800;
-    font-size: 26px;
+    font-size: 32px;
   }
   .con01 .valueBox li h5 {
     font-weight: 300;
@@ -1475,6 +1487,12 @@ a {
     border: 1px solid #0975ce;
     border-radius: 0px 50px 0px 50px;
     box-shadow: 2px 2px 4px #0975ce60;
+    overflow: hidden;
+  }
+  .con04 .news .news_med img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .con04 .news .news_link a {
     display: block;
@@ -1836,6 +1854,9 @@ a {
   #visual ul li .text p span {
     font-weight: 700;
   }
+  #visual ul li:nth-child(3) .text {
+    font-size: 18px;
+  }
 
   #container {
     width: 100%;
@@ -1925,7 +1946,7 @@ a {
   }
   .con01 .valueBox li h4 {
     font-weight: 800;
-    font-size: 26px;
+    font-size: 36px;
   }
   .con01 .valueBox li h5 {
     font-weight: 300;
@@ -2323,6 +2344,12 @@ a {
     border: 1px solid #0975ce;
     border-radius: 0px 50px 0px 50px;
     box-shadow: 2px 2px 4px #0975ce60;
+    overflow: hidden;
+  }
+  .con04 .news .news_med img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .con04 .news .news_link a {
     display: block;
