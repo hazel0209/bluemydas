@@ -108,7 +108,7 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    animation: zoomSlow 12s ease-out forwards;
+    animation: zoomSlow 10s ease-out forwards;
   }
   @keyframes zoomSlow {
     from {
@@ -173,13 +173,15 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5%;
+    /* gap: 5%; */
     max-width: 1000px;
     margin: 60px auto 100px;
     padding: 20px 0px;
+    height: 50vh;
   }
   .con01 .aboutBox .about_txt {
     width: 45%;
+    text-align: center;
     word-break: keep-all;
   }
   .con01 .aboutBox .about_txt p:nth-child(1) {
@@ -195,9 +197,10 @@ a {
     color: #00b3c7;
   } */
   .con01 .aboutBox .about_txt .grey {
-    color: #bbb;
+    color: #0975ce;
+    margin: 0px 2px;
   }
-  .con01 .aboutBox .about_med {
+  /* .con01 .aboutBox .about_med {
     border: 1px solid #0975ce;
     width: 40%;
     height: 240px;
@@ -213,7 +216,7 @@ a {
     position: absolute;
     top: 15px;
     left: 20px;
-  }
+  } */
 
   .con01 .valueBox {
     width: 95%;
@@ -352,18 +355,29 @@ a {
     margin-top: 50px;
   }
   .con02 .pr_after ul {
+    width: calc(80vw + 106px);
+    min-width: 900px;
     display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
     gap: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000000;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
   }
   .con02 .pr_after ul li {
     width: 20vw;
     flex-shrink: 0;
     aspect-ratio: 1/1;
-    background-color: #ffffff70;
+    /* background-color: #ffffff70; */
+    border: 1px solid #00000049;
     border-radius: 20px;
     text-align: center;
     z-index: 10;
     transition: 0.3s;
+    overflow: hidden;
   }
   .con02 .pr_after ul li a {
     display: block;
@@ -373,17 +387,17 @@ a {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 20px;
-    color: #cbcbcb;
+    color: #828282;
     text-shadow: 0px 0px 4px #00000080;
     transition: 0.3s;
   }
   .con02 .pr_after ul li:hover {
-    background-color: #ffffff9b;
-    box-shadow: 0px 0px 6px #ffffffd8;
+    background-color: #0091ff24;
+    box-shadow: 0px 0px 6px #0975ced8;
   }
   .con02 .pr_after ul li:hover a {
-    text-shadow: 0px 0px 4px #ffffff80;
-    color: #fff;
+    text-shadow: 0px 0px 4px #0975ced8;
+    color: #094f88;
   }
   .con02 .pr_after ul li a img {
     width: 100%;
@@ -956,7 +970,7 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    animation: zoomSlow 12s ease-out forwards;
+    animation: zoomSlow 10s ease-out forwards;
   }
   @keyframes zoomSlow {
     from {
@@ -1024,14 +1038,16 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5%;
+    /* gap: 5%; */
     max-width: 1000px;
     margin: 60px auto 100px;
     padding: 20px 0px;
+    height: 50vh;
   }
   .con01 .aboutBox .about_txt {
     width: 45%;
     word-break: keep-all;
+    text-align: center;
   }
   .con01 .aboutBox .about_txt p:nth-child(1) {
     font-size: 20px;
@@ -1046,9 +1062,10 @@ a {
     color: #00b3c7;
   } */
   .con01 .aboutBox .about_txt .grey {
-    color: #bbb;
+    color: #0975ce;
+    margin: 0px 2px;
   }
-  .con01 .aboutBox .about_med {
+  /* .con01 .aboutBox .about_med {
     border: 1px solid #0975ce;
     width: 40%;
     height: 240px;
@@ -1064,7 +1081,7 @@ a {
     position: absolute;
     top: 15px;
     left: 20px;
-  }
+  } */
 
   .con01 .valueBox {
     width: 95%;
@@ -1205,19 +1222,31 @@ a {
     margin-top: 50px;
   }
   .con02 .pr_after ul {
+    width: calc(80vw + 106px);
+    min-width: 900px;
     display: flex;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    align-items: center;
     gap: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000000;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
   }
   .con02 .pr_after ul li {
     width: 20vw;
     min-width: 200px;
     flex-shrink: 0;
     aspect-ratio: 1/1;
-    background-color: #ffffff70;
+    /* background-color: #ffffff70; */
+    border: 1px solid #00000049;
     border-radius: 20px;
     text-align: center;
     z-index: 10;
     transition: 0.3s;
+    overflow: hidden;
   }
   .con02 .pr_after ul li a {
     display: block;
@@ -1227,17 +1256,17 @@ a {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 20px;
-    color: #cbcbcb;
+    color: #828282;
     text-shadow: 0px 0px 4px #00000080;
     transition: 0.3s;
   }
   .con02 .pr_after ul li:hover {
-    background-color: #ffffff9b;
-    box-shadow: 0px 0px 6px #ffffffd8;
+    background-color: #0091ff24;
+    box-shadow: 0px 0px 6px #0975ced8;
   }
   .con02 .pr_after ul li:hover a {
-    text-shadow: 0px 0px 4px #ffffff80;
-    color: #fff;
+    text-shadow: 0px 0px 4px #0975ced8;
+    color: #094f88;
   }
   .con02 .pr_after ul li a img {
     width: 100%;
@@ -1810,7 +1839,7 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    animation: zoomSlow 12s ease-out forwards;
+    animation: zoomSlow 10s ease-out forwards;
   }
   @keyframes zoomSlow {
     from {
@@ -1901,9 +1930,10 @@ a {
     color: #00b3c7;
   } */
   .con01 .aboutBox .about_txt .grey {
-    color: #bbb;
+    color: #0975ce;
+    margin: 0px 2px;
   }
-  .con01 .aboutBox .about_med {
+  /* .con01 .aboutBox .about_med {
     border: 1px solid #0975ce;
     height: 240px;
     border-radius: 5vw 5vw 5vw 0;
@@ -1918,7 +1948,7 @@ a {
     position: absolute;
     top: 15px;
     left: 20px;
-  }
+  } */
 
   .con01 .valueBox {
     width: 95%;
@@ -2058,19 +2088,31 @@ a {
     word-break: keep-all;
   }
   .con02 .pr_after ul {
+    width: calc(80vw + 106px);
+    min-width: 650px;
     display: flex;
-    gap: 20px;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000000;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
   }
   .con02 .pr_after ul li {
     width: 20vw;
-    min-width: 200px;
+    min-width: 150px;
     flex-shrink: 0;
     aspect-ratio: 1/1;
-    background-color: #ffffff70;
-    border-radius: 20px;
+    /* background-color: #ffffff70; */
+    border: 1px solid #00000049;
+    border-radius: 15px;
     text-align: center;
     z-index: 10;
     transition: 0.3s;
+    overflow: hidden;
   }
   .con02 .pr_after ul li a {
     display: block;
@@ -2079,23 +2121,23 @@ a {
     align-content: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 20px;
-    color: #cbcbcb;
+    font-size: 12px;
+    color: #828282;
     text-shadow: 0px 0px 4px #00000080;
     transition: 0.3s;
   }
   .con02 .pr_after ul li:hover {
-    background-color: #ffffff9b;
-    box-shadow: 0px 0px 6px #ffffffd8;
+    background-color: #0091ff24;
+    box-shadow: 0px 0px 6px #0975ced8;
   }
   .con02 .pr_after ul li:hover a {
-    text-shadow: 0px 0px 4px #ffffff80;
-    color: #fff;
+    text-shadow: 0px 0px 4px #0975ced8;
+    color: #094f88;
   }
   .con02 .pr_after ul li a img {
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 15px;
     transition: 0.3s;
   }
   .con02 .pr_after ul li:hover a img {
@@ -2121,9 +2163,9 @@ a {
     width: 100%;
     margin: 0px auto;
   }
-  .con03 .time ul {
-    /* width: calc(100% / 2 - 20px); */
-  }
+  /* .con03 .time ul {
+    width: calc(100% / 2 - 20px);
+  } */
   .con03 .time ul li {
     font-size: 14px;
     margin: 5px 0px;

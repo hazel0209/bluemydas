@@ -102,7 +102,7 @@ gsap
       borderRadius: "50%",
       background: "#0975ce",
       opacity: "0.1",
-      zIndex: "-10",
+      zIndex: "-100",
       pointerEvents: "none",
     });
     circle.style.cssText += pos; // top/left/right/bottom 적용
