@@ -28,6 +28,11 @@ $(function () {
     lastScroll = space;
   });
 
+  $(".hamB").on("click", function () {
+    $(this).toggleClass("active");
+    $(".menu").toggleClass("active");
+  });
+
   $(function () {
     $(".valueBox li").on("mouseenter", function () {
       $(".valueBox li").removeClass("on");
